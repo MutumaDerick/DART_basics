@@ -4,7 +4,7 @@ void main() {
   const PI = 3.14;
   final date = 12;
 
-  var name ="Derick";
+  var name =" Mutuma Derick";
   var age = 23;
   var height = 5.6;
 
