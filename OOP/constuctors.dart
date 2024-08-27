@@ -28,6 +28,7 @@ class Dog {
 void main() {
   // Creating an instance of MyDetails using the default constructor
   var myDetails = MyDetails();
+  print(myDetails);
 
   // Creating an instance(an object) of the Dog class named myDog
   Dog myDog = Dog("Buddy", 3, "Labrador");
@@ -35,5 +36,13 @@ void main() {
   // Print infomation about the dog
   print("Name: ${myDog.name}, Age: ${myDog.age}, Breed: ${myDog.breed}");
 
-  // Call 
+  // Call the bark method of the Dog class
+  myDog.bark();
+
+  // Call the eat method of the Dog class
+  myDog.eat();
+
+  // Call the sleep method of the Dog class
+  myDog.sleep();
+  
 }
