@@ -35,4 +35,8 @@ void main() {
 
   print('Circle Area: ${myCircle.calculateArea()}');
   print('Rectangle Area: ${myRectangle.calculateArea()}');
+
+  myRectangle.printInfo();
+  myCircle.printInfo();
 }
+// we don't create object for the abstract class
