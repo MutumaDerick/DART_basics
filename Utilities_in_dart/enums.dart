@@ -1,3 +1,5 @@
+// enums are used to define a collection of constant values. 
+
 enum Color {
   red,
   green,
@@ -17,5 +19,7 @@ void main() {
   print(Color.values[2]); // Color.blue
 
   // Iterating over enum values
-  
+  for (Color color in Color.values) {
+    print(color);
+  }
 }
