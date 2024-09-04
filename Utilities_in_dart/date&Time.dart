@@ -44,11 +44,22 @@ void main() {
 
   // Print the difference in days
   print("Difference in days: $differenceInDays");
-}
 
+  // Print specific date and time components
+  print("Year: ${now.year}");
+  print("Month: ${now.month}");
+  print("Day: ${now.day}");
+  print("Hour: ${now.hour}");
+  print("Minute: ${now.minute}");
+  print("Second: ${now.second}");
+
+}
+// Function to add a leading zero to a number if it is less than 10
 String _addLeadingZero(int number) {
   return number < 10 ? '0$number' : '$number';
 }
+
+// Function to get the abbreviation of a month
 String getMonthAbbreviation(int month) {
   const List<String> monthAbbreviations = [
     'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
